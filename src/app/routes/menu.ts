@@ -37,6 +37,10 @@ const Material = {
         {
             text: "ng2Material",
             link: "/material/ngmaterial"
+        },
+        {
+            text: "Feature 1",
+            link: "/material/langlist"
         }
     ],
     "alert": "new",

@@ -11,6 +11,8 @@ import { CoreModule } from './core/core.module';
 import { LayoutModule } from './layout/layout.module';
 import { SharedModule } from './shared/shared.module';
 import { RoutesModule } from './routes/routes.module';
+import { InputsModule } from '@progress/kendo-angular-inputs';
+
 
 // https://github.com/ocombe/ng2-translate/issues/218
 export function createTranslateLoader(http: HttpClient) {
@@ -19,7 +21,8 @@ export function createTranslateLoader(http: HttpClient) {
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+
     ],
     imports: [
         HttpClientModule,
@@ -34,7 +37,8 @@ export function createTranslateLoader(http: HttpClient) {
                 useFactory: (createTranslateLoader),
                 deps: [HttpClient]
             }
-        })
+        }),
+        InputsModule
     ],
     providers: [],
     bootstrap: [AppComponent]

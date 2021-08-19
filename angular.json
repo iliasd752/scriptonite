@@ -32,6 +32,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
               "src/app/core/preloader/preloader.scss",
               "src/styles.scss"
             ],
@@ -100,6 +103,9 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
               "src/app/core/preloader/preloader.scss",
               "src/styles.scss"
             ],
