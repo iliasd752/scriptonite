@@ -12,7 +12,7 @@ import { ColorsComponent } from './colors/colors.component';
 import { NgmaterialComponent } from './ngmaterial/ngmaterial.component';
 import { DialogResultExampleDialog } from './ngmaterial/dialog.component';
 import { PizzaPartyComponent } from './ngmaterial/snackbar.component';
-import { LanglistComponent } from './langlist/langlist.component';
+
 
 const routes: Routes = [
     { path: 'cards', component: CardsComponent },
@@ -21,8 +21,7 @@ const routes: Routes = [
     { path: 'lists', component: ListsComponent },
     { path: 'whiteframe', component: WhiteframeComponent },
     { path: 'colors', component: ColorsComponent },
-    { path: 'ngmaterial', component: NgmaterialComponent },
-    { path: 'langlist', component: LanglistComponent}
+    { path: 'ngmaterial', component: NgmaterialComponent }
 ];
 
 @NgModule({
