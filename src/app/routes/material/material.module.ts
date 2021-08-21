@@ -41,8 +41,7 @@ const routes: Routes = [
         ColorsComponent,
         NgmaterialComponent,
         DialogResultExampleDialog,
-        PizzaPartyComponent,
-        LanglistComponent
+        PizzaPartyComponent
     ],
     exports: [
         RouterModule
